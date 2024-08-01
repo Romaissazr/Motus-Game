@@ -1,0 +1,141 @@
+body{
+    background-image:url("bg.mp4")
+}
+.dialog
+{
+    position: absolute;
+    left: 400px;
+    top: 270px;
+    width: 525px;
+    height: 200px;
+    background-color: #92d3ff;
+    border: 1px black solid;
+    border-radius: 2%;
+    z-index: 99;
+}
+.dialog2
+{
+    position: absolute;
+    left: 10px;
+    top: 30px;
+    width: 505px;
+    height: 155px;
+    background-color: white;
+    border: 1px black solid;
+    z-index: 99;
+}
+.lab 
+{
+    position: absolute;
+    top: 8px;
+    left: 20px;
+    width: 210px;
+    border: transparent;
+}
+.lab2
+{
+    position: absolute;
+    top: 30px;
+    left: 140px;
+    
+    border: transparent;
+}
+.imag
+{
+    position: absolute;
+    right: 20px;
+    
+}
+.imag2
+{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+.btnok
+{
+    position: absolute;
+    left: 280px;
+    top: 110px;
+    border-top: 10px;
+    border-bottom: 10px;
+    border-left: 30px;
+    border-right: 40px;
+    border: 1px black solid;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+}
+#btn1:hover{
+    font-weight: 700;
+    background-color: aqua;
+    border: 3px aqua solid;
+    size: 110%;
+}
+.btnannuler
+{
+    position: absolute;
+    left: 400px;
+    top: 110px;
+    border-top: 10px;
+    border-bottom: 10px;
+    border-left: 30px;
+    border-right: 40px;
+    border: 1px black solid;
+    height: 30px;
+    width: 100px;
+    background-color: rgb(250, 57, 57);
+    border-radius: 20px;
+}
+.btnannuler:hover{
+    font-weight: 700;
+    background-color: rgb(255, 255, 255);
+    border: 1px rgb(0, 0, 0) solid;
+size: 110%;
+}
+.mdiv1
+{
+    position: absolute;
+    left: 420px;
+    top: 20px;
+    width: 487px;
+    height: 559px;
+    background-color: rgb(162, 90, 251);
+    border-radius: 5%;
+}
+.mdiv2
+{
+    margin-left: 25px;
+    margin-top: 20px;
+}
+.tab 
+{
+    margin-top: 4px;
+    background-color:violet;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 48px;
+    color: white;
+    font-weight: 900;
+    height: 80px;
+    width:  80px;
+}
+input
+{
+    border: none;
+}
+#lbl
+{
+    width: 180px;
+    position: absolute;
+    top:60px ;
+    left: 20px;
+}
+#scr
+{
+    width: 60px;
+    position: absolute;
+    top:60px ;
+    left: 190px;
+
+}
